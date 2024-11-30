@@ -1,0 +1,91 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+header {
+    background: linear-gradient(to right, #4CAF50, #8BC34A);
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #f1f9ff;
+    border: 1px solid #ddd;
+}
+
+nav {
+    background: #f4f4f4;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+nav a:hover {
+    background: #4CAF50;
+    color: #fff;
+}
+section {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+h2 {
+    color: #4CAF50;
+}
+.card {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #f4f4f4;
+    margin-top: 20px;
+}
+figure {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center; /* Căn giữa hình ảnh và caption */
+    margin: 20px auto;
+    max-width: 100%; /* Đảm bảo figure không vượt quá chiều rộng trang */
+}
+
+figure img {
+    max-width: 100%; /* Hình ảnh không vượt quá chiều rộng trang */
+    height: auto; /* Tự động điều chỉnh chiều cao để giữ tỷ lệ */
+}
+
+figcaption {
+    margin-top: 10px; /* Khoảng cách giữa hình ảnh và caption */
+    font-size: 14px;
+    color: #555; /* Màu sắc nhã nhặn cho caption */
+    font-style: italic; /* Làm cho caption trông khác biệt */
+    text-align: center; /* Căn giữa chú thích */
+}
+
